@@ -14,7 +14,7 @@ public class a {
 		System.out.print("Enter the index of the array: ");
 		try {
 		
-			System.out.println("The corresponding element value is " + 
+			System.out.println("The value is " + 
 				array[input.nextInt()]);
 		}
 		catch (ArrayIndexOutOfBoundsException ex) {
